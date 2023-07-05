@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabia Tenorio - Nail Designer & Esmalteria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header-mobile">
+        <header class="header">
+            <img class="header-logo" src="./images/logo.svg" alt="Logo Fabia Tenorio Esmalteria">
+            <nav class="header-navbar">
+                <a class="header-navbar-item" href="index.html">Início</a>
+                <a class="header-navbar-item" href="#">Sobre</a>
+                <a class="header-navbar-item" href="#">Galeria</a>
+                <a class="header-navbar-item" href="services.html">Serviços</a>
+                <a class="header-navbar-item" href="contact.html">Contato</a>
+            </nav>
+        </header>
+        <main class="contact-main">
+            <div id="contact-main">
+                <h1 class="contact-main-title">Insira seus dados e marque um horário</h1>
+                <p class="contact-main-paragraph">
+                    Para atender cada cliente com exclusividade, trabalhamos com horário
+                    agendado.
+                    <br>Entre em contato conosco através do formulário abaixo. 
+                    <br>Atendimentos de terça a domingo das 09:00 às 19:00.
+                </p>
+                <form class="contact-form">
+                    <label class="form-text" for="nome">Nome:</label>
+                    <input class="form-inbox" type="text" id="nome" name="nome" placeholder="Digite seu nome..." required>
+
+                    <label class="form-text" for="email">E-mail:</label>
+                    <input class="form-inbox" type="email" id="email" name="email" placeholder="Digite seu email..." required>
+
+                    <label class="form-text" for="telefone">Telefone:</label>
+                    <input class="form-inbox" type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone..." required>
+
+                    <label class="form-text" for="mensagem">Mensagem:</label>
+                    <textarea class="form-inbox" id="mensagem" rows="5" placeholder="Deixe sua mensagem aqui..." ></textarea>
+
+                    <label class="form-text" for="opcao">Serviço:</label>
+                    <select class="form-inbox" id="opcao" name="opcao">
+                        <option value="pedicure">pedicure</option>
+                        <option value="manicure">manicure</option>
+                        <option value="manicure e pedicure">manicure e pedicure</option>
+                        <option value="alongamento">alongamento</option>
+                        <option value="spa dos pés">spa dos pés</option>
+                        <option value="outro">outro</option>
+                    </select>
+                    <label class="form-text" for="datahora">Data e Hora:</label>
+                    <input class="form-inbox" type="datetime-local" id="datahora">
+
+                    <button id="form-button" type="submit">Enviar</button>
+                </form>
+            </div>
+            <img class="content-form-img" src="./images/contactimg.svg" alt="unhas bonitas">
+        </main>
+    </div>
+
+    <footer class="footer">
+        <img class="footer-img" src="./images/imgfooter.svg" alt="Fabia Tenorio Esmalteria">
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
