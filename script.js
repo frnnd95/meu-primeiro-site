@@ -64,7 +64,7 @@ window.addEventListener('DOMContentLoaded', function() {
           isValid = false;
           errorMessages.push('Os atendimentos são das 9:00 às 19:00.');
         }
-  
+
         if (selectedDate < now) {
           isValid = false;
           errorMessages.push('A data e hora selecionadas estão no passado');
